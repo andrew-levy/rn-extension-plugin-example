@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alevy97.rn-extension-plugin-example"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "react-native-safari-extension"
+    ]
   }
 }
