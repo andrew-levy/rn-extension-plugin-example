@@ -7,6 +7,6 @@ Example Expo project using the [Safari Extension Config Plugin](https://github.c
 1. Clone the repo
 2. Run `yarn` to install dependencies
 3. Run `yarn ios` to build the extension to your simulator
-4. Run `yarn extension` to enable HMR (in a separate terminal)
-5. Open your extension in Safari and enable it.
+4. Open your extension in Safari and enable it
+5. Run `yarn start:extension` to enable HMR
 6. Edit `App.tsx` to see changes in the extension
