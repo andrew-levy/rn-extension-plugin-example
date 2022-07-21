@@ -19,13 +19,15 @@
     ],
     "ios": {
       "supportsTablet": true,
+      "buildNumber": "100",
       "bundleIdentifier": "com.alevy97.rn-extension-plugin-example"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.alevy97.rnextensionpluginexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
